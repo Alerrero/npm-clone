@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+body {
+    font-family: Poppins;
+    margin: 0px;
+}
+
+h1 {
+  font-size: 65px;  
+}
+
+h2 {
+   font-size: 2.15rem;
+}
+
+p {
+    font-size: 15px;
+}
+
+.top-bar {
+    padding: 8px 0;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-image: linear-gradient(139deg, rgb(251, 136, 23), rgb(255,75,1), rgb(193, 33, 39), rgb(224, 42, 255));
+    border-image-slice: 1;
+    line-height: 1.15;
+}
+
+.top-bar-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.npm-random-text span {
+    font-size: 15px;
+}
+
+.heart {
+    margin-right: 1em;
+}
+
+.nav-bar-ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar-ul li {
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 1em;
+
+}
+
+.nav-bar-ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.npr-black-logo {
+    width: 70px;
+    padding-top: 15px;
+}
+
+.search-icon {
+    width: 28px;
+    padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+}
+
+.search-sign-up-bar {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.search-sign-up-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    width: 950px;
+}
+
+.search-bar input {
+    border: none;
+    background-color: transparent;
+    width: 1000px;
+    height: 50px
+}
+
+.search-button {
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 7rem;
+    font-weight: 700;
+}
+
+.signin-signup a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 30px;
+}
+
+.sign-up {
+    border: 1px solid black;    
+}
+
+.sign-in {
+    margin-left: 1px;
+}  
+
+.general-info {
+    background-image: url(https://static.npmjs.com/attachments/ck3uwvv67mydydr74ea00ip4j-bg-stripes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.general-info-links{
+    margin-bottom: 75px;
+    margin-top: 25px;
+}
+
+.general-info-links a {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 15px 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.sign-up-free {
+    background-color: #c12127;
+    border-bottom: 5px solid #fa8717;
+}
+
+.learn-pro {
+    background-color: #e81aa8;
+    border-bottom: 5px solid #b30ad2;
+}
+
+.section-two {
+    margin: 75px 0;
+}
+
+.section-three {
+    background-image: url(https://static.npmjs.com/attachments/ck3uwg3a8731988744oecrjxu-weloveopensource-bg-800-2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.section-four {
+    margin: 75px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.section-four img {
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.section-four h2 {
+    margin-bottom: 75px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-bottom: 10px solid;
+    border-image: linear-gradient(139deg, rgb(251, 136, 23), rgb(255,75,1), rgb(193, 33, 39), rgb(224, 42, 255));
+    border-image-slice: 1;
+
+}
+
+.n-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 50px 0;
+}
+
+.footer-ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
